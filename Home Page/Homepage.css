@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home {
+  margin-top: 100px;
+  margin-bottom: 1px;
+}
+
+.websites {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.california-website {
+  margin-right: 10px;
+}
+
+.california-box {
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+  flex-direction: flex-start;
+}
+
+.california-picture {
+  padding-top: 10px;
+  margin: 0;
+  display: inline-block;
+  padding-right: 0px;
+  min-width: 300px;
+  max-width: 300px;
+  width: 100px;
+  height: 200px;
+  padding-bottom: 5px;
+}
+
+.california {
+  color: black;
+  text-decoration: none;
+  display: block;
+  max-width: 100px;
+  padding-left: 100px;
+  display: flex;
+  align-items: baseline;
+}
+
+.new-picture {
+  padding-top: 10px;
+  margin: 0;
+  display: inline-block;
+  padding-right: 0px;
+  min-width: 300px;
+  max-width: 300px;
+  width: 100px;
+  height: 200px;
+  padding-bottom: 5px;
+}
+
+.new-box {
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.new {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding-left: 100px;
+  display: flex;
+  align-items: baseline;
+}
+
+.new-website {
+  margin-left: 10px;
+}
